@@ -1,3 +1,3 @@
-FROM public.ecr.aws/z9d2n7e1/nginx:1.19.5
+FROM 552212359451.dkr.ecr.us-east-1.amazonaws.com/frontend:1
 EXPOSE 80
-COPY index.html /usr/share/nginx/html
+COPY index.html /var/www/html
